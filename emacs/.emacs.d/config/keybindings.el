@@ -26,11 +26,11 @@
 
 ;; Beginning of line
 (global-unset-key (kbd "M-J"))
-(global-set-key (kbd "M-J") 'move-end-of-line)
+(global-set-key (kbd "M-J") 'move-beginning-of-line)
 
 ;; End of line
 (global-unset-key (kbd "M-L"))
-(global-set-key (kbd "M-L") 'move-beginning-of-line)
+(global-set-key (kbd "M-L") 'move-end-of-line)
 
 ;; Next page
 (global-unset-key (kbd "M-k"))
