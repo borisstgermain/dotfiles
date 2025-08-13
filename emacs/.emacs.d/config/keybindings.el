@@ -1,6 +1,5 @@
-;; Navigation
+;; navigation
 
-;; Up
 (global-unset-key (kbd "C-i"))
 (global-set-key (kbd "C-i") 'previous-line)
 
@@ -20,7 +19,7 @@
 (global-unset-key (kbd "M-l"))
 (global-set-key (kbd "M-l") 'forward-word)
 
-;; Backward word
+;;  Backward word
 (global-unset-key (kbd "M-j"))
 (global-set-key (kbd "M-j") 'backward-word)
 
@@ -29,6 +28,7 @@
 (global-set-key (kbd "M-J") 'move-beginning-of-line)
 
 ;; End of line
+(global-unset-key (kbd "C-e"))
 (global-unset-key (kbd "M-L"))
 (global-set-key (kbd "M-L") 'move-end-of-line)
 

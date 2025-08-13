@@ -6,4 +6,4 @@
 (setq gc-cons-threshold (* 50 1000 1000))
 
 ;; Загрузка кастомных модулей
-(load-file (expand-file-name "config/keybindings.el" user-emacs-directory))
+(load-file (expand-file-name "./config/keybindings.el" user-emacs-directory))
